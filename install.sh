@@ -414,7 +414,7 @@ else
                 exProxyServer=$8
                 if [ -z "$9" ]
                 then
-                    URL="https://www.dropbox.com/s/usku8rcyysk9664/9hits-linux-x64-2.5.2.tar.bz2"
+                    URL="http://5.75.207.14/9hits-linux-x64.tar.bz2"
                 else
                     URL=$9
                 fi
