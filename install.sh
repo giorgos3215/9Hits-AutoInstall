@@ -2,7 +2,7 @@
 mkdir /root/9Hits/
 cd /root/9Hits/
 a=$((1 + RANDOM % 28))
-URL="https://www.dropbox.com/s/usku8rcyysk9664/9hits-linux-x64-2.5.2.tar.bz2"
+URL="http://5.75.207.14/9hits-linux-x64.tar.bz2"
 if [[ $EUID -ne 0 ]]; then
     whiptail --title "ERROR" --msgbox "This script must be run as root" 8 78
     exit
